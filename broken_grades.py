@@ -25,7 +25,7 @@ exam_two = int(input("Input exam grade two: "))
 
 exam_three = int(input("Input exam grade three: "))
 
-grades = print([exam_one,exam_two,exam_three])
+grades = [exam_one, exam_two, exam_three]
 sum = 0
 for grade in grades:
   sum = sum + grade
@@ -50,7 +50,9 @@ for grade in grades:
 
     print("Grade: " + letter_grade)
 
+    break
+
 if letter_grade == "F":
-    print ("Student is failing.")
+    print("Student is failing.")
 else:
-    print ("Student is passing.")
+    print("Student is passing.")
