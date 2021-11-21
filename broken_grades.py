@@ -15,7 +15,7 @@
 # Student is passing.
 
 # Exams: 50, 51, 0
-# Average: 33
+# Average: 34
 # Grade: F
 # Student is failing.
 
