@@ -30,7 +30,7 @@ sum = 0
 for grade in grades:
   sum = sum + grade
 
-avg = sum / len(grades)
+avg = round(sum / len(grades))
 
 if avg >= 90:
     letter_grade = "A"
