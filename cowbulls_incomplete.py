@@ -13,8 +13,7 @@ print (number)
 print("Let's play a game of Cowbull!") #explanation
 print("I will generate a number, and you have to guess the numbers one digit at a time.")
 print("For every number that exists in the sequence but is in wrong place, you get a cow. For every one in the right place, you get a bull.")
-print("The game ends when you get 4 bulls!")
-print("Type exit at any prompt to exit.")
+
 
 while playing:
     user_guess = input("Give me your best guess!")
